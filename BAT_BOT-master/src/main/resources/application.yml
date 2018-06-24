@@ -1,0 +1,18 @@
+application.viber-bot:
+ auth-token: "4801f9f0b3a7d357-d7a04297e2db3504-d9dd8606454cbef4"
+ webhook-url: "https://newmybotik.herokuapp.com"
+ name: "BATBOT"
+ avatar: "https://steamuserimages-a.akamaihd.net/ugc/924797296508795660/678F6DDE61B17A1AA32739F4D31B128B5B5BF6D1/?interpolation=lanczos-none&amp;output-format=jpeg&amp;output-quality=95&amp;fit=inside%7C512%3A512&amp;composite-to=*,*%7C512%3A512&amp;background-color=black"
+
+logging:
+  level:
+    root: DEBUG
+
+
+spring.datasource.url=jdbc:postgresql://ec2-54-247-100-44.eu-west-1.compute.amazonaws.com:5432/dbpsqlohiio2fg
+spring.datasource.username=kutxbiyyxgczrz
+spring.datasource.password=bb9ab2d98201d7ccd91e51ccbb6aa4d1f2b3708fcd85d80251f557fe5b120ec6
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+spring.liquibase.enabled=true
+spring.liquibase.change-log=classpath:/db/changelogs/master-chagelog.xml
